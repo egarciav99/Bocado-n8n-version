@@ -104,8 +104,8 @@ const RecommendationScreen: React.FC<RecommendationScreenProps> = ({ userName, o
       };
 
       const webhookUrls = [
-        'https://egarciav.app.n8n.cloud/webhook-test/cc7fe0c8-47da-4a3a-ad03-39b02ca28780',
-        'https://egarciav.app.n8n.cloud/webhook/cc7fe0c8-47da-4a3a-ad03-39b02ca28780'
+        'https://egarciav.app.n8n.cloud/webhook-test/PRIVADO',
+        'https://egarciav.app.n8n.cloud/webhook/PRIVADO'
       ];
 
       const webhookPromises = webhookUrls.map(url => 
